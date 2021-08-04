@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="630:px-20 px-10 bg-gray-100 630:mb-0 mb-20 md:pt-12 pt-4 pb-4">
             <div className="flex md:flex-row flex-col border-b-2 pb-3">
                 <div className="lg:w-1/4 md:w-1/3 w-full">
-                    <h1 className="font-semibold md:pb-0 pb-4 md:border-b-0 border-b-2 flex items-center xl:text-lg text-base mb-2">Информация <img src={arrowDown} onClick={()=>{setOpen1(!open1)}} className="md:hidden inline-block ml-auto" alt=""/></h1>
+                    <h1  onClick={()=>{setOpen1(!open1)}} className="font-semibold cursor-pointer md:pb-0 pb-4 md:border-b-0 border-b-2 flex items-center xl:text-lg text-base mb-2">Информация <img src={arrowDown} className="md:hidden inline-block ml-auto" alt=""/></h1>
                     <div className={`md:block ${open1 ? 'flex flex-col': 'hidden'}`}>
                         <Link to='/' className="text-gray-500 hover:text-gray-800 block xl:text-base text-sm mb-2">О нас</Link>
                         <Link to='/' className="text-gray-500 hover:text-gray-800 block xl:text-base text-sm mb-2">Условия использования</Link>
@@ -22,7 +22,7 @@ const Footer = () => {
 
                 </div>
                 <div className="lg:w-1/4 md:w-1/3 w-full">
-                    <h1 className="flex items-center md:pb-0 pb-4 md:border-b-0 border-b-2 font-semibold xl:text-lg text-base mb-2">Сервис и поддержка <img src={arrowDown} onClick={()=>{setOpen2(!open2)}} className="md:hidden inline-block ml-auto" alt=""/></h1>
+                    <h1 onClick={()=>{setOpen2(!open2)}} className="flex cursor-pointer items-center md:pb-0 pb-4 md:border-b-0 border-b-2 font-semibold xl:text-lg text-base mb-2">Сервис и поддержка <img src={arrowDown} className="md:hidden inline-block ml-auto" alt=""/></h1>
                     <div className={`md:block ${open2 ? 'flex flex-col': 'hidden'}`}>
                         <Link to='/' className="text-gray-500 hover:text-gray-800 block xl:text-base text-sm mb-2">Бренды</Link>
                         <Link to='/' className="text-gray-500 hover:text-gray-800 block xl:text-base text-sm mb-2">Оплата</Link>
@@ -34,7 +34,7 @@ const Footer = () => {
 
                 </div>
                 <div className="lg:w-1/4 md:w-1/3 w-full">
-                    <h1 className="md:hidden flex items-center font-semibold xl:text-lg text-base mb-2">Контакты <img src={arrowDown} onClick={()=>{setOpen3(!open3)}} className="ml-auto" alt=""/></h1>
+                    <h1 onClick={()=>{setOpen3(!open3)}} className="md:hidden flex cursor-pointer items-center font-semibold xl:text-lg text-base mb-2">Контакты <img src={arrowDown} className="ml-auto" alt=""/></h1>
                     <div className={`md:block ${open3 ? 'flex flex-col': 'hidden'}`}>
                         <div className="flex items-center mb-3">
                             <h1 className="font-semibold 630:block hidden xl:text-lg text-base mr-4">Телефон:</h1>
