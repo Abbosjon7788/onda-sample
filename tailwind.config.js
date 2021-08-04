@@ -6,16 +6,21 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
+      '630': '630px',
       sm: '640px',
+      '720': '720px',
       md: '768px',
+      '880': '880px',
+      '981': '981px',
+      '996': '996px',
       lg: '1024px',
       xl: '1280px',
+      '1369': '1369px',
       '2xl': '1536px',
     },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-
       black: colors.black,
       white: colors.white,
       gray: colors.coolGray,
@@ -268,6 +273,7 @@ module.exports = {
       ],
     },
     fontSize: {
+      'small': '8px',
       xs: ['0.75rem', { lineHeight: '1rem' }],
       sm: ['0.875rem', { lineHeight: '1.25rem' }],
       base: ['1rem', { lineHeight: '1.5rem' }],
@@ -789,6 +795,8 @@ module.exports = {
       '9/12': '75%',
       '10/12': '83.333333%',
       '11/12': '91.666667%',
+      '450': '450px',
+      '340': '340px',
       full: '100%',
       screen: '100vw',
       min: 'min-content',

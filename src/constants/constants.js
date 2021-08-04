@@ -12,6 +12,7 @@ export const instagram = './assets/icons/instagram.png';
 export const order = './assets/icons/order.png';
 export const paintedArrowDown = './assets/icons/painted-arrow-down.png';
 export const search = './assets/icons/search.png';
+export const searchBlack = './assets/icons/search-black.png';
 export const twitter = './assets/icons/twitter.png';
 export const user = './assets/icons/user.png';
 export const logo = './assets/images/logo.png';

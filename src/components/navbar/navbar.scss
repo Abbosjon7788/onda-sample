@@ -1,3 +1,37 @@
 .bg-green{
   background-color: #19FC39;
 }
+.w-top-nav-item{
+  width: calc(100% - 70px);
+}
+.w-input-630{
+  width: calc(100% - 64px - 16px);
+}
+
+@media screen and (min-width: 1480px) {
+  .header-catalogue{
+    .search-part{
+      width: 582px;
+    }
+  }
+
+}
+
+@media (min-width: 1369px) and (max-width: 1480px) {
+  .header-catalogue{
+    .search-part{
+      width: 420px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 1369px) {
+  .header-catalogue{
+    position: absolute;
+    .search-part{
+      width: calc(100% - 54px + 32px);
+    }
+  }
+
+}
