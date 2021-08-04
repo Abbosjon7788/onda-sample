@@ -1,9 +1,14 @@
 import React from 'react';
+import Footer from "../../components/footer/Footer";
+import DownloadApp from "../../components/downloadApp/DownloadApp";
+import AuthorizationComponent from "../../components/authorization/AuthorizationComponent";
 
 const Authorization = () => {
     return (
         <div>
-            <h1>this is authorization page</h1>
+            <AuthorizationComponent/>
+            <DownloadApp/>
+            <Footer/>
         </div>
     );
 };
